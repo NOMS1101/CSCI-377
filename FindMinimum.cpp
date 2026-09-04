@@ -14,7 +14,7 @@ int findMinimum(const vector<int>& values) {
 }
  
 int main() {
-    vector<int> values = {52, 9, 88, 3, 67, 24, 95, 11, 41, 6}; //Vector for values
+    vector<int> values = {52, 9, 88, 3, 67, 24, 95, 11, 1, 6}; //Vector for values
  
     int result = findMinimum(values);
     cout << "Minimum value: " << result << endl;
